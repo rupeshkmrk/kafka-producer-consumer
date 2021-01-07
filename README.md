@@ -8,8 +8,8 @@
 
 ## Start Kafka Server
 - `bin/kafka-server-start.sh config/server.properties`
-- `.\bin\windows\kafka-server-start.sh config\server.properties`
+- `.\bin\windows\kafka-server-start.bat config\server.properties`
 
 ## Create Kafka Topic
 - `bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic Kafka_Example`
-- `.\bin\windows\kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic NewTopic`
+- `.\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic NewTopic`
